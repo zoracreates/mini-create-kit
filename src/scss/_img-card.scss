@@ -1,0 +1,43 @@
+img.ck-img {
+    width: 100%
+}
+
+.ck-img-card {
+    margin: $gap 0;
+    display: grid;
+    grid-gap: $gap;
+    padding: 15px;
+    box-shadow: 3px 3px 10px lighten($black, 70%);
+    border-radius: 3px;
+    width: fit-content;
+    max-width: 550px;
+    height: fit-content;
+
+    img {
+        border-radius: 5px;  
+    }
+
+    @media(min-width: $break-point) {
+        grid-auto-columns: repeat(2, 1fr);
+
+        img:only-child {
+            margin-bottom: 0;
+            grid-column: 1 / span 2;
+        }
+
+        div {
+            grid-column: 2;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+        }
+    }
+
+    &.ck-vertical-card {
+        display: block;
+        
+        img {
+            margin-bottom: $gap;
+        }
+    }
+}

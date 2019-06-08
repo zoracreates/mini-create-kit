@@ -1,0 +1,50 @@
+@import 'normalize';
+@import 'variables';
+@import 'links';
+@import 'img-card';
+
+
+html {
+    background: $white;
+    box-sizing: border-box;
+    line-height: 1.5;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: $serif;
+    color: $black;
+    font-weight: 300;
+}
+
+p {
+    line-height: 1.5;
+}
+
+.ck-three-card-list {
+    list-style: none;
+    padding-left: 0;
+
+    @media (min-width: $break-point) {
+        grid-gap: $gap;
+        display: grid;
+        grid-template-columns: repeat(3,  1fr);
+    }
+}
+
+.ck-box-padding {
+    padding: $gap;
+}
+
+.ck-dark-mode {
+    color: $light-gray;
+    background: $black;
+}
+
+
+
+
+
