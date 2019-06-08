@@ -64,7 +64,7 @@ class PatternLibrary extends React.Component {
 
 
 				<Description title="Horizontal Image Card With Additional Content">
-					<p>Any type of content you inser an &lt;ImageCard /&gt;, will be placed  to the right of the image.</p>
+					<p>Any type of content you insert an &lt;ImageCard /&gt;, will be placed  to the right of the image.</p>
 					<Example>
 						<ImageCard imgSrc="https://picsum.photos/300" imgAlt="placeholder image">
 							<p>
@@ -93,7 +93,7 @@ class PatternLibrary extends React.Component {
 					<p>The &lt;Section /&gt; component takes a "title" prop, which it sets to an &lt;h2&gt;,
 							and it wraps this title and any additional content within &lt;Section /&gt; in an HTML &lt;section&gt; tag.
 						</p>
-					<p>This component also takes a "styleName" prop, which accepts one or more CSS class name.
+					<p>This component also takes a "styleName" prop, which accepts one or more CSS classes.
 						In this case the classes add padding to the section and set a dark color scheme.
 						</p>
 					<Example>
@@ -111,11 +111,11 @@ class PatternLibrary extends React.Component {
 
 
 				<Description title="Header With &lt;p&gt; and &lt;h1&gt; Title">
-					<p>The &lt;Header /&gt; component takes a "title". If you add a "home" prop the title will be set
+					<p>The &lt;Header /&gt; component takes a "title". If you add a "home" prop, the title will be set
 							as an &lt;h1&gt;, without "home" it will be a &lt;p&gt;.
 							The appearence of the title will be the same either way, only the markup will change.
 						</p>
-					<p>This component also takes a "styleName" attribute, which accepts one or more CSS class name.
+					<p>This component also takes a "styleName" attribute, which accepts one or more CSS classes.
 							In this case the classes add padding.</p>
 					<p>You can also include a tagline below the title.</p>
 					<Example>
@@ -134,8 +134,8 @@ class PatternLibrary extends React.Component {
 
 
 				<Description title="Links">
-					<p>Both &lt;Link /&gt; and &lt;EmailLink /&gt; take the props "linkText" which sets the text link,
-						"title" which gives an optional title to the link, and "blockDisplay" which makes the link into a block element instead of an inline element.
+					<p>Both &lt;Link /&gt; and &lt;EmailLink /&gt; take the props "linkText" which sets the text of the link,
+						"title" which gives an optional title to the link, and "blockDisplay" which optionally makes the link into a block element instead of an inline element.
 						The difference between these is that &lt;Link /&gt; takes "linkAddress" which sets the url of the link, while &lt;EmailLink /&gt;
 						takes "emailAddress" which sets the email to which the user can send a message. Furthemore, &lt;EmailLink /&gt; adds an envelope  icon at
 						the end of the link.
@@ -149,10 +149,13 @@ class PatternLibrary extends React.Component {
 
 				<Description title="Putting It All Together">
 					<p>This example puts all the patterns above together. In addition it introduces the .ck-three-card-list
-						class which sets list into a grid of 3 columns on devices larger than 48em.
-						</p>
+						class which sets a list into a grid of 3 columns on devices larger than 48em. Note that React rendered in the code 
+						sample is the restult of a 
+						<Link linkAddress="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map" linkText=" map() function"/>.
+					</p>
 
 					<Example>
+						<Header title="Fancy Business Name" tagline="We do great stuff"/>
 						<Section title="Meet Our Team" styleName="ck-box-padding">
 							<ul className="ck-three-card-list">
 								{peopleList.map((person, id) => {

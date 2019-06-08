@@ -1,0 +1,18 @@
+.ck-header {
+    text-align: center;
+    border-bottom: 1px $secondary-color solid;
+    border-top: 1px $secondary-color solid;
+    margin: $gap 0;
+
+    .ck-header-title {
+        font-size: 2rem;
+        margin: 0.67em 0;
+        font-weight: bold;
+    }
+
+    .ck-header-tagline {
+        font-size: 1.125rem;
+        font-style: italic;
+    }
+
+}
