@@ -1,3 +1,5 @@
+/* Code based from https://github.com/tshelburne/csci-e39/blob/master/src/assignments/design-patterns/support/example.js) */
+
 import React from 'react'
 import PropTypes from 'prop-types'
 import ReactDOM from 'react-dom'
