@@ -51,7 +51,7 @@ class PatternLibrary extends React.Component {
 	render() {
 		return (
 			<div className="style-guide">
-				<h1>Create Kit Patterns</h1>
+				<h1>Mini Create Kit</h1>
 
 				<Description title="Simple Image Card">
 					<p>A simple &lt;ImageCard /&gt; takes the url to an image and alternate text.</p>
