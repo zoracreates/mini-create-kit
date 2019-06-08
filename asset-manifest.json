@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/mini-create-kit/static/css/main.6dbb06f5.chunk.css",
+    "main.css": "/mini-create-kit/static/css/main.2431f548.chunk.css",
     "main.js": "/mini-create-kit/static/js/main.6b7fe366.chunk.js",
     "main.js.map": "/mini-create-kit/static/js/main.6b7fe366.chunk.js.map",
     "runtime~main.js": "/mini-create-kit/static/js/runtime~main.83c40fd3.js",
@@ -8,9 +8,9 @@
     "static/js/2.5fa11007.chunk.js": "/mini-create-kit/static/js/2.5fa11007.chunk.js",
     "static/js/2.5fa11007.chunk.js.map": "/mini-create-kit/static/js/2.5fa11007.chunk.js.map",
     "index.html": "/mini-create-kit/index.html",
-    "precache-manifest.ee1b5e2a329672cd5713e1c655b7a77a.js": "/mini-create-kit/precache-manifest.ee1b5e2a329672cd5713e1c655b7a77a.js",
+    "precache-manifest.dbefdc49faa7b211442eb400bac52262.js": "/mini-create-kit/precache-manifest.dbefdc49faa7b211442eb400bac52262.js",
     "service-worker.js": "/mini-create-kit/service-worker.js",
-    "static/css/main.6dbb06f5.chunk.css.map": "/mini-create-kit/static/css/main.6dbb06f5.chunk.css.map",
+    "static/css/main.2431f548.chunk.css.map": "/mini-create-kit/static/css/main.2431f548.chunk.css.map",
     "static/media/ck-pattern-styles.scss": "/mini-create-kit/static/media/email.7f6da354.svg"
   }
 }
